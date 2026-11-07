@@ -9,19 +9,41 @@ Numbers are a snapshot from **2026-11-07**.
 ### zcash-faucet: testnet TAZ from your terminal
 `npx zcash-faucet <testnet-address>`
 
+![zcash-faucet](images/faucet-cover.png)
+
+![A real claim](images/faucet-demo.gif)
+
 - Code: https://github.com/anukulpandey/zcash-faucet
 - npm: https://www.npmjs.com/package/zcash-faucet
 - Live status page: https://zcash-faucet.vercel.app
 - Usage from the chain: https://zcash-faucet.vercel.app/api/stats
 - **47 drips** paid since 2026-10-31 · **5.6 TAZ** sent · **20.3 TAZ** donated back by 9 donors · **954 npm downloads** in its first month
 
+**Live status page, read from the chain** (screenshot 2026-11-07):
+
+![Live faucet status page](images/faucet-status-live.png)
+
+<details><summary>How it works</summary>
+
+![zcash-faucet architecture](images/faucet-architecture.png)
+
+</details>
+
 ### zcash-testnet-wallet: a working testnet wallet in one command
 `npx zcash-testnet-wallet`
+
+![zcash-testnet-wallet](images/wallet-cover.png)
 
 - Code: https://github.com/anukulpandey/zcash-testnet-wallet
 - npm: https://www.npmjs.com/package/zcash-testnet-wallet
 - Prebuilt zcash-devtool for macOS: [arm64](https://www.npmjs.com/package/zcash-testnet-wallet-darwin-arm64) · [x64](https://www.npmjs.com/package/zcash-testnet-wallet-darwin-x64)
 - Verified end to end on testnet: wallet + address + QR, faucet funding, payment watcher (mined → confirmed from a viewing key)
+
+![Before and after](images/wallet-before-after.png)
+
+**Payment watcher catching a real faucet payment from the viewing key alone:**
+
+![Payment watcher output](images/wallet-watcher.png)
 
 ## 🔧 Upstream contributions (Zcash repos)
 
@@ -38,6 +60,11 @@ Numbers are a snapshot from **2026-11-07**.
 ## 💬 Zcash Community Forum (as [anuna](https://forum.zcashcommunity.com/u/anuna))
 
 **Topics I started**
+
+![zcash-testnet-wallet forum post](images/forum-wallet-post.png)
+
+![zcash-faucet forum post](images/forum-faucet-post.png)
+
 - [zcash-testnet-wallet: a working testnet wallet + address + QR + TAZ in one command](https://forum.zcashcommunity.com/t/zcash-testnet-wallet-a-working-testnet-wallet-address-qr-taz-in-one-command/59018) (2026-11-07)
 - [zcash-faucet: testnet TAZ from your terminal with npx zcash-faucet](https://forum.zcashcommunity.com/t/zcash-faucet-testnet-taz-from-your-terminal-with-npx-zcash-faucet-address/58647) (2026-10-31)
 
